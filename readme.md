@@ -28,7 +28,14 @@ Python-Skript, um alle PDF-Dateien einer Webseite herunterzuladen.
 
 ```bash
 python downloader.py <URL> [-o <OUTPUT_DIR>]
-```
+
+oder 
+
+python downloader_extended.py <URL> [-o <OUTPUT_DIR>]
+``` 
+Die zweite Variante zeigt nach Ausführung eine Zusammenfassung der Downloads an: 
+
+![Anzahl der heruntergeladenen Dateien und Ausführungsdauer](./img/summary.png)
 
 ## Optionen
 - `<URL>`: Ziel-Webseite mit PDF-Links.
