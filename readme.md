@@ -10,14 +10,14 @@ Python-Skript, um alle PDF-Dateien einer Webseite herunterzuladen.
 
 1. Repository klonen:
    ```bash
-   git clone https://.../pdf-downloader.git
-   cd pdf-downloader
+   git clone [https://.../pdf-downloader.git](https://github.com/DonHanso/py_pdfdownloader.git)
+   cd py_pdfdownloader
    ```
 2. Virtual Environment erstellen und aktivieren:
    ```bash
-   python3 -m venv venv
-   source venv/bin/activate  # Linux/Macpython
-   venv\Scripts\activate     # Windows PowerShell
+   python3 -m venv env_pdfdownloader
+   source env_pdfdownloader/bin/activate  # Linux/Macpython
+   env_pdfdownloader\Scripts\activate     # Windows PowerShell
    ```
 3. Abhängigkeiten installieren:
    ```bash
